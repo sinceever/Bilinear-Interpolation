@@ -55,7 +55,7 @@ Z = Cwaterdensity(2:end,2:end);
 % Self-defined Bilinear interpolation
 Zp = jy_fit(X, Y, Z, Xp, Yp);  %%% output %%%
 %% Plot the interpolated values
-% surf(Xp, Yp, Zp)
+surf(Xp, Yp, Zp)
 figure
 hold on
 title(sprintf("Liquid Water Density Estimation at a pressure of %.3f kPa", Xp))
