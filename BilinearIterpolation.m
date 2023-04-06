@@ -1,7 +1,7 @@
 % author: Jingyu Ren
 % Laurentian University
 % Student ID: 0421763
-% Research Method Assignment6
+
 clc;clear;
 
 % Define the points where we want to interpolate
